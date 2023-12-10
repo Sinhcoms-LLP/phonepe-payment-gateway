@@ -1,0 +1,28 @@
+{
+    "name": "Sinhcoms-LLP/phonepe-payment-gateway",
+    "description": "PhonePe Payment Integration class for handling phonepe payment",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Sinhcoms LLP",
+            "email": "support@sinhcoms.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Sinhcoms-LLP/phonepe-payment-gateway"
+        }
+    ],
+    "require": {
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "sinhcoms\\PhonePePaymentGateway\\": "src/"
+        }
+    }
+}
